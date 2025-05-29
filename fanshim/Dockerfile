@@ -7,4 +7,4 @@ RUN apk add --no-cache py3-pip && \
     pip install --break-system-packages fanshim psutil RPi.GPIO
 
 COPY run.py /run.py
-COPY rootfs /  # Skopiuje plik `run` do /etc/services.d/
+COPY rootfs/ /
