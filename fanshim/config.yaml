@@ -1,0 +1,12 @@
+name: "Fan SHIM Controller"
+version: "1.0"
+slug: "fanshim"
+description: "Control Fan SHIM on Raspberry Pi based on CPU temp"
+arch:
+  - aarch64
+startup: services
+boot: auto
+host_network: true
+full_access: true
+options: {}
+schema: {}
